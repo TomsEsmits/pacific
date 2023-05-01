@@ -1,0 +1,21 @@
+{
+  "name": "acf/projects-block",
+  "title": "Projects block",
+  "category": "widgets",
+  "icon": "paperclip",
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "projects-block.php"
+  },
+  "example": {
+    "attributes": {
+      "mode": "preview",
+      "data": {
+        "preview_image_help": "screenshot.png"
+      }
+    }
+  },
+  "pacificScripts": false,
+  "pacificVendorScripts": ["lightbox/js/lightbox.min.js"],
+  "pacificVendorStyles": ["/lightbox/css/lightbox.min.css"]
+}

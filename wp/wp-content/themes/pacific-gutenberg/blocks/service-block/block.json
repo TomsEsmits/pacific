@@ -1,0 +1,19 @@
+{
+	"name": "acf/service-block",
+	"title": "Service block",
+	"category": "widgets",
+	"icon": "hammer",
+	"acf": {
+		"mode": "preview",
+		"renderTemplate": "service-block.php"
+	},
+	"example": {
+		"attributes": {
+			"mode": "preview",
+			"data": {
+				"preview_image_help": "screenshot.png"
+			}
+		}
+	},
+	"pacificScripts": false
+}

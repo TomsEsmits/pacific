@@ -1,0 +1,19 @@
+{
+  "name": "acf/newsletter-block",
+  "title": "Newsletter block",
+  "category": "design",
+  "icon": "email-alt2",
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "newsletter-block.php"
+  },
+  "example": {
+    "attributes": {
+      "mode": "preview",
+      "data": {
+        "preview_image_help": "screenshot.png"
+      }
+    }
+  },
+  "pacificScripts": false
+}

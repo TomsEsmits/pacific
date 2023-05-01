@@ -1,0 +1,12 @@
+.hero-block {
+  &__background-wrapper {
+    background: url("../../dist/img/bg-dot.webp"),
+      url("../../dist/img/bg-dot.webp"), url("../../dist/img/bg-round.webp"),
+      url("../../dist/img/bg-tree.webp"),
+      url("../../dist/img/bg-bottom-hero.webp");
+    background-position: 10px 10px, bottom 190px right 10px, left 55% top -1px,
+      left 45% bottom -1px, center bottom -1px;
+    background-repeat: no-repeat;
+    background-color: $primary;
+  }
+}

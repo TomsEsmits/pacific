@@ -1,0 +1,32 @@
+// Theme colors
+$primary: #2124b1; 
+$secondary: #4777f5;
+$light: #f7faff;
+$light2: #e9ecef;
+$dark: #1d1d27;
+$dark2: #212529;
+$dark3: #1e2125;
+$white: #fff;
+$gray: #ddd;
+$darkGray: #888;
+$borderColor: rgba(0, 0, 0, 0.15);
+$blue: #638bf7;
+$blue2: #5985f6;
+$darkBlue: rgba(33, 66, 177, 0.5);
+$boxShadow: rgba(0, 0, 0, 0.1);
+$borderTop: rgba(256, 256, 256, 0.1);
+$borderRight: rgba(255, 255, 255, 0.1);
+
+// Grid
+$grid: 1300px;
+$gutter: 15px;
+
+// Breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 991px,
+  xl: 1200px,
+  xxl: 1400px,
+) !default;

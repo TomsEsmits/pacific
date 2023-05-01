@@ -1,0 +1,21 @@
+{
+  "name": "acf/testimonial-block",
+  "title": "Testimonial block",
+  "category": "embed",
+  "icon": "editor-quote",
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "testimonial-block.php"
+  },
+  "example": {
+    "attributes": {
+      "mode": "preview",
+      "data": {
+        "preview_image_help": "screenshot.png"
+      }
+    }
+  },
+  "pacificScripts": false,
+  "pacificVendorScripts": ["owlcarousel/owl.carousel.min.js"],
+  "pacificVendorStyles": ["owlcarousel/assets/owl.carousel.min.css"]
+}

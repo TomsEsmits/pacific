@@ -1,0 +1,19 @@
+{
+	"name": "acf/about-us-block",
+	"title": "About us block",
+	"category": "design",
+	"icon": "reddit",
+	"acf": {
+		"mode": "preview",
+		"renderTemplate": "about-us-block.php"
+	},
+	"example": {
+		"attributes": {
+			"mode": "preview",
+			"data": {
+				"preview_image_help": "screenshot.png"
+			}
+		}
+	},
+	"pacificScripts": false
+}

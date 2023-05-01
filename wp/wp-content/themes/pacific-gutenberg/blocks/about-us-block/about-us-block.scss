@@ -1,0 +1,21 @@
+.about-us-block {
+  .col-sm-6 {
+    h6 {
+      &:first-child {
+        margin-bottom: 16px;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__button-wrapper {
+    a {
+      &:not(:last-child) {
+        margin-right: 16px;
+      }
+    }
+  }
+}
